@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color:#434455;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .link {
@@ -28,15 +28,15 @@ li {
     line-height: 117%;
     letter-spacing: 0.03;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #4D5AE5;
 }
 
 .logo-span {
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 .header {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 100%;
     display: flex;
     align-items: center;
@@ -59,27 +59,27 @@ li {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: ##2e2f42;
+    color: #2E2F42;
     text-decoration: none;
     font-style: normal;
 }
 
 .link:hover {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .link:active {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .link:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .contact-info {
     font-style: normal;
     display: flex;
-    align-items: ;
+    align-items: center;
 }
 
 .contact {
@@ -92,11 +92,11 @@ li {
 }
 
 .contact:hover {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .contact:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 /* Effective solutions */
@@ -120,17 +120,18 @@ li {
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 48px;
     margin-top: 0;
 }
 
 .button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     padding-left: 32px;
     padding-right: 32px;
@@ -142,11 +143,11 @@ li {
 }
 
 .button:hover {
-    background: #404bbf;
+    background: #404BBF;
 }
 
 .button:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 /* Our advantages */
@@ -178,7 +179,7 @@ li {
     margin-right: 12px;
 }
 
-.advantages-conteiner h3 {
+.advantages-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -189,7 +190,7 @@ li {
     text-align: left;
 }
 
-.advantages-conteiner p {
+.advantages-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -202,13 +203,18 @@ li {
 
 /* Our Team */
 
+.our-team {
+    background-color: #F4F4FD;
+    width: auto;
+    align-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .team-conteiner {
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
-    position: relative;
 }
 
 .team-conteiner ul {
@@ -216,7 +222,7 @@ li {
     padding-left: 0;
 }
 
-.team-conteiner h3 {
+.team-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -227,7 +233,7 @@ li {
     margin-bottom: 8px;
 }
 
-.team-conteiner p {
+.team-list-info {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -243,7 +249,7 @@ li {
     margin-bottom: 0;
 }
 
-.team-conteiner li{
+.team-list {
     width: 264px;
     height: 380px;
     margin-left: 12px;
@@ -254,15 +260,7 @@ li {
     background: #fff;
 }
 
-.our-team {
-    background-color: #f4f4fd;
-    width: auto;
-    align-content: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.our-team h2 {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -288,7 +286,7 @@ li {
     padding-bottom: 120px;
 }
 
-.our-portfolio h2 {
+.our-portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -330,7 +328,7 @@ li {
     height: 300px;
 }
 
-.portfolio-conteiner h3 {
+.portfolio-items-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -341,7 +339,7 @@ li {
     margin-left: 16px;
 }
 
-.portfolio-conteiner p {
+.portfolio-items-info {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -354,7 +352,7 @@ li {
 
 /* Footer */
 
-.footer {
+.footer-cont {
     background-color: #2e2f42;
     width: auto;
     padding-top: 100px;
@@ -362,17 +360,21 @@ li {
     padding-bottom: 100px;
 }
 
-.footer .link-logo {
+.footer-cont .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-cont .logo-span {
     color: #f4f4fd;
 }
 
-.footer p {
+.footer-info {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
