@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -20,44 +20,48 @@ li {
 
 /* Header */
 
-.header {
-    background-color: #fff;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+.logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.header-conteiner {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+.logo-span {
+    color: #2e2f42;
+}
+
+.header {
+    background-color: #fff;
     width: 100%;
-    max-width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .nav-link {
-    align-items: center;
     display: flex;
-    box-sizing: border-box;
-    margin-left: 76px;
-    padding-left: 0;
+    align-items: center;
 }
 
-#studio {
-    padding-right: 40px;
-}
-
-#contacts {
-    padding-left: 40px;
-}
-
-#mail {
-    padding-right: 40px;
+.link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: ##2e2f42;
+    text-decoration: none;
+    font-style: normal;
 }
 
 .link:hover {
@@ -72,19 +76,10 @@ li {
     color: #404bbf;
 }
 
-.link-logo {
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03;
-    text-transform: uppercase;
-    color: #2e2f42;
-}
-
-.link-logo span {
-    color: #4d5ae5;
+.contact-info {
+    font-style: normal;
+    display: flex;
+    align-items: ;
 }
 
 .contact {
@@ -94,7 +89,6 @@ li {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    font-style: normal;
 }
 
 .contact:hover {
@@ -103,19 +97,6 @@ li {
 
 .contact:focus {
     color: #404bbf;
-}
-
-.address {
-    align-items: center;
-    display: flex;
-    box-sizing: border-box;
-}
-
-.address ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    display: flex;
 }
 
 /* Effective solutions */
